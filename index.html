@@ -685,7 +685,7 @@ function gsLoad(cb){
 
 // Kirim data ke Sheets
 function gsPost(payload, cb){
-  if(!GS_URL||GS_URL==='ISI_URL_APPS_SCRIPT_DISINI'){if(cb)cb(true);return;}
+  if(!GS_URL||GS_URL==='https://script.google.com/macros/s/AKfycbybpiN_RdKm-h-h9BQgeVOv5eYn2o2VBS6vvGS8J3yoEDY22WiRoniQrrsSJ93htMW2/exec'){if(cb)cb(true);return;}
   var creds=getAdminCreds();
   payload.user=creds.user;
   payload.pass=creds.pass;
